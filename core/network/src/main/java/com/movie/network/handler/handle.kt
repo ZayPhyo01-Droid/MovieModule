@@ -1,8 +1,7 @@
-package com.movie.ktor.util.handler
+package com.movie.network.handler
 
 import arrow.core.Either
-import arrow.core.Some
-import com.movie.ktor.util.exception.DataException
+import com.movie.network.exception.DataException
 
 
 fun <A : DataException, B> Either<A, B>.handle(

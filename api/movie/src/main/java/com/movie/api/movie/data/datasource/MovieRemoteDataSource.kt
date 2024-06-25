@@ -3,7 +3,7 @@ package com.movie.api.movie.data.datasource
 import arrow.core.Either
 
 import com.movie.api.movie.domain.model.MovieModel
-import com.movie.ktor.util.exception.DataException
+import com.movie.network.exception.DataException
 
 interface MovieRemoteDataSource {
     suspend fun getTrendingMovies(): Either<DataException, List<MovieModel>>

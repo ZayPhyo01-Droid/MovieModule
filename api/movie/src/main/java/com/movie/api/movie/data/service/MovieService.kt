@@ -1,11 +1,10 @@
 package com.movie.api.movie.data.service
 
 import arrow.core.Either
-import com.movie.api.movie.domain.model.MovieModel
 
 import com.movie.api.movie.data.model.response.MovieResponse
 import com.movie.api.movie.data.model.response.MovieResultResponse
-import com.movie.ktor.util.exception.DataException
+import com.movie.network.exception.DataException
 
 interface MovieService {
 

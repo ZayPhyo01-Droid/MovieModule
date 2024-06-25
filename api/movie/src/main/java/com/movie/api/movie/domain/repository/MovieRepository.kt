@@ -3,7 +3,7 @@ package com.movie.api.movie.domain.repository
 import arrow.core.Either
 
 import com.movie.api.movie.domain.model.MovieModel
-import com.movie.ktor.util.exception.DataException
+import com.movie.network.exception.DataException
 
 interface MovieRepository {
     suspend fun getTrendingMovies(): Either<DataException, List<MovieModel>>

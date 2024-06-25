@@ -1,9 +1,9 @@
-package com.movie.ktor.util
+package com.movie.network
 
 import arrow.core.Either
 import arrow.core.left
 import arrow.core.right
-import com.movie.ktor.util.exception.DataException
+import com.movie.network.exception.DataException
 import io.ktor.client.call.body
 import io.ktor.client.statement.HttpResponse
 import kotlinx.serialization.SerializationException

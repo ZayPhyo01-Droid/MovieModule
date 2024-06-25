@@ -1,11 +1,10 @@
 package com.movie.api.movie.data.service
 
 import arrow.core.Either
-import com.movie.api.movie.domain.model.MovieModel
 import com.movie.api.movie.data.model.response.MovieResponse
 import com.movie.api.movie.data.model.response.MovieResultResponse
-import com.movie.ktor.util.eitherCall
-import com.movie.ktor.util.exception.DataException
+import com.movie.network.eitherCall
+import com.movie.network.exception.DataException
 import io.ktor.client.HttpClient
 import io.ktor.client.request.get
 import javax.inject.Inject

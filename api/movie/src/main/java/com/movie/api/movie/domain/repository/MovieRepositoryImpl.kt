@@ -4,7 +4,7 @@ import arrow.core.Either
 import com.movie.api.movie.data.datasource.MovieRemoteDataSource
 
 import com.movie.api.movie.domain.model.MovieModel
-import com.movie.ktor.util.exception.DataException
+import com.movie.network.exception.DataException
 import javax.inject.Inject
 
 class MovieRepositoryImpl @Inject constructor(

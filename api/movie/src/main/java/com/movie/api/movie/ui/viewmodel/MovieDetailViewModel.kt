@@ -6,7 +6,7 @@ import com.common.base.BaseViewModel
 import com.common.event.Event
 import com.movie.api.movie.domain.model.MovieModel
 import com.movie.api.movie.domain.usecase.GetMovieDetailUseCase
-import com.movie.ktor.util.handler.handle
+import com.movie.network.handler.handle
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch

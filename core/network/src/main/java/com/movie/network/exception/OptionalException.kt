@@ -1,6 +1,4 @@
-package com.movie.ktor.util.exception
-
-import arrow.core.Option
+package com.movie.network.exception
 
 sealed class DataException : RuntimeException {
 

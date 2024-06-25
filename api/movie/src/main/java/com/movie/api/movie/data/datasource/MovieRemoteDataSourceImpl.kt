@@ -5,7 +5,7 @@ import com.movie.api.movie.data.mapper.toModel
 import com.movie.api.movie.data.mapper.toMovieModels
 import com.movie.api.movie.data.service.MovieService
 import com.movie.api.movie.domain.model.MovieModel
-import com.movie.ktor.util.exception.DataException
+import com.movie.network.exception.DataException
 import javax.inject.Inject
 
 

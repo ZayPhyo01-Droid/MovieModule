@@ -83,5 +83,5 @@ dependencies {
     implementation(project(":annotations"))
 
     implementation(libs.bundles.bundleComposeNavigation)
-    implementation(project(":ktor"))
+
 }

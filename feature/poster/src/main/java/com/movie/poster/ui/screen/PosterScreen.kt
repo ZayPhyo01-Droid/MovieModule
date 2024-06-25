@@ -12,7 +12,6 @@ import com.movie.poster.ui.component.PosterItem
 import com.ui.design.theme.MovieTheme
 
 
-
 @Composable
 private fun PosterContent(
     modifier: Modifier = Modifier,

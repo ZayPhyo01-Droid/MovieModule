@@ -8,7 +8,7 @@ import com.movie.api.movie.domain.usecase.GetPopularMovieUseCase
 import com.movie.api.movie.domain.usecase.GetTopRatedMovieUseCase
 import com.movie.api.movie.domain.usecase.GetTrendingMovieUseCase
 import com.movie.home.ui.model.MovieUiModel
-import com.movie.ktor.util.handler.handle
+import com.movie.network.handler.handle
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch

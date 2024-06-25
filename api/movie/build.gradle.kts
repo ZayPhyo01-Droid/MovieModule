@@ -77,7 +77,7 @@ dependencies {
 
     implementation(libs.bundles.bundleKtor)
     implementation(libs.bundles.bundleCoil)
-    implementation(project(":ktor"))
+
 
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
