@@ -20,7 +20,7 @@ A sample Jetpack compose movie app with multi module style + mvvm clean arch and
 
 
 
-## Features
+## Screen
 
 - Home Screen
 - Upcoming
