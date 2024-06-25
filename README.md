@@ -3,7 +3,7 @@
 
 A sample Jetpack compose movie app with multi module style + mvvm clean arch and using baseline profile to optimze app start up.
 
-<img src = "https://github.com/ZayPhyo01-Droid/MovieModule/blob/main/screenshot/Screenshot_20240626_002645.png" width = "240" height = "600"/>
+<img src = "https://github.com/ZayPhyo01-Droid/MovieModule/blob/main/screenshot/Screenshot_20240626_002645.png" width = "240" height = "450"/>
 
 ## Features
 
