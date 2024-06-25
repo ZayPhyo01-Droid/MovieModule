@@ -5,6 +5,17 @@ A sample Jetpack compose movie app with multi module style + mvvm clean arch and
 
 <img src = "https://github.com/ZayPhyo01-Droid/MovieModule/blob/main/screenshot/Screenshot_20240626_002645.png" width = "240" height = "510"/>
 
+## Benchmarking
+   There are 3 compilation mode to benchmarking the app start 
+   - No baseline
+   - With Baseline Mode
+   - Full Module
+
+<img src = "https://github.com/ZayPhyo01-Droid/MovieModule/blob/main/screenshot/Screenshot%202024-06-26%20at%2012.10.24%20AM.png" />
+
+
+
+
 ## Features
 
 - Home Screen
