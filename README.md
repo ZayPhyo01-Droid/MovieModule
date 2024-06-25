@@ -43,6 +43,8 @@ api module sit between core and feature module (as not to connect feature module
 
 feature for application feature module
 
+poster module not yet implement
+
 annotations and processor module for ksp navigation processor 
 
 baselineprofile module to generate baselineprofile for app startup (Will add dex layout optimization later)
