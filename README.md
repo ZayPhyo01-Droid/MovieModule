@@ -1,13 +1,7 @@
 
 # Movie Module
 
-A sample movie app with multi module style + mvvm clean arch and using baseline profile to optimze app start up.
-
-
-
-
-
-
+A sample Jetpack compose movie app with multi module style + mvvm clean arch and using baseline profile to optimze app start up.
 
 
 
@@ -17,7 +11,8 @@ A sample movie app with multi module style + mvvm clean arch and using baseline 
 - Upcoming
 - Detail 
 
-
+## Network
+Ktor Client
 
 
 ## Navigation
