@@ -5,9 +5,9 @@ import com.common.extension.orZero
 import com.movie.api.movie.data.model.response.MovieResponse
 import com.movie.api.movie.data.model.response.MovieResultResponse
 
-internal fun MovieResponse.toMovieModels() = results.map {
+internal fun MovieResponse?.toMovieModels() = this?.results?.map {
     it.toModel()
-}
+}.orEmpty()
 
 internal fun MovieResultResponse.toModel() = com.movie.api.movie.domain.model.MovieModel(
     id = this.id,
